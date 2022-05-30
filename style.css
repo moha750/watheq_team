@@ -1,0 +1,772 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"w";
+}
+
+@font-face {
+    font-family:"w";
+    src: url(Mikhak-Bold-1.ttf);
+}
+
+/* header */
+
+header {
+    background-image: url(img/header.png);
+    background-size: contain;
+    height: 664px;
+    background-repeat: no-repeat;
+    background-color: #FEF1D9; 
+}
+
+span {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #FEF1D9;
+    font-size: 45px;
+    margin: 28px;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-left {
+    float: left;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 75px;
+}
+
+/* who */
+
+.who {
+    background-color: #FEF1D9;
+    text-align: center;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.a {
+    background-image: url(img/who.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 190px;
+    position: relative;
+    top: 100px;
+    opacity: 35%;
+}
+
+.dir {
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+.b {
+    font-size: 100px;
+    color: #273248;
+}
+
+.c {
+    font-size: 100px;
+    color: #273248;
+}
+
+/* one */
+
+.one {
+    background-color: #273248;
+    overflow: hidden;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.o {
+    width: 40%;
+    float: right;
+    margin: 50px 50px 50px 0px;
+}
+
+.oo {
+    width: 50%;
+    float: left;
+    margin: 100px 0px 50px 50px;
+}
+
+/* two */
+
+.two {
+    background-color: #FFEBD2;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.t {
+    width: 40%;
+    float: left;
+    margin: 50px 0px 50px 70px;
+}
+
+.tt {
+    width: 50%;
+    float: right;
+    margin: 100px 70px 50px 0px;
+}
+
+/* thr */
+
+.thr {
+    background-color: #FC7643;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.r {
+    width: 40%;
+    float: right;
+    margin: 50px 20px 50px 0px;
+}
+
+.rr {
+    width: 55%;
+    float: left;
+    margin: 30px 0px 50px 20px;
+}
+
+footer {
+    background-color: #FFEBD2;
+    text-align: center;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.up {
+    color: #273248;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.down {
+    color: #273248;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+
+    header {
+        background-image: url(img/header.png);
+        background-size: contain;
+        height: 635px;
+        background-repeat: no-repeat;
+        background-color: #FEF1D9; 
+    }
+
+    span {
+        margin-top: 50px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FEF1D9;
+        font-size: 35px;
+        margin: 28px;
+    }
+    
+    .nav-right {
+        float: right;
+    }
+    
+    .nav-left {
+        float: left;
+    }
+    
+    .logo {
+        width: 30%;
+        margin-top: 75px;
+    }
+
+    .two {
+        background-color: #FFEBD2;
+        overflow: hidden;
+        padding: 50px;
+        box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+    }
+    
+    .t {
+        width: 40%;
+        float: left;
+        margin: 50px 0px 50px 70px;
+    }
+    
+    .tt {
+        width: 50%;
+        float: right;
+        margin: 100px 50px 50px 0px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1399px) {
+
+    header {
+        background-image: url(img/header.png);
+        background-size: contain;
+        height: 555px;
+        background-repeat: no-repeat;
+        background-color: #FEF1D9; 
+    }
+
+    span {
+        margin-top: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FEF1D9;
+        font-size: 30px;
+        margin: 46px;
+    }
+    
+    .nav-right {
+        float: right;
+    }
+    
+    .nav-left {
+        float: left;
+    }
+    
+    .logo {
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    .who {
+        background-color: #FEF1D9;
+        text-align: center;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .a {
+        background-image: url(img/who.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height: 170px;
+        position: relative;
+        top: 100px;
+        opacity: 35%;
+    }
+    
+    .dir {
+        width: 70%;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .b {
+        font-size: 90px;
+        color: #273248;
+    }
+    
+    .c {
+        font-size: 85px;
+        color: #273248;
+    }
+
+    /* one */
+
+.one {
+    background-color: #273248;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.o {
+    width: 40%;
+    float: right;
+    margin: 20px 20px 20px 0px;
+}
+
+.oo {
+    width: 50%;
+    float: left;
+    margin: 50px 0px 20px 20px;
+}
+
+/* two */
+
+.two {
+    background-color: #FFEBD2;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.t {
+    width: 40%;
+    float: left;
+    margin: 10px 0px 10px 50px;
+}
+
+.tt {
+    width: 50%;
+    float: right;
+    margin: 40px 40px 10px 0px;
+}
+
+/* thr */
+
+.thr {
+    background-color: #FC7643;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.r {
+    width: 40%;
+    float: right;
+    margin: 50px 20px 50px 0px;
+}
+
+.rr {
+    width: 55%;
+    float: left;
+    margin: 30px 0px 50px 20px;
+}
+
+.up {
+    color: #273248;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.down {
+    color: #273248;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+}
+
+@media screen and (min-width:700px) and (max-width:999px) {
+   
+    header {
+        background-image: url(img/header.png);
+        background-size: contain;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-color: #FEF1D9; 
+    }
+
+    span {
+        margin-top: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FEF1D9;
+        font-size: 20px;
+        margin: 33px;
+    }
+    
+    .logo {
+        width: 30%;
+        margin-top: 15px;
+    }
+
+    .who {
+        background-color: #FEF1D9;
+        text-align: center;
+        position: relative;
+        padding-bottom: 80px;
+    }
+    
+    .a {
+        background-image: url(img/who.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height: 120px;
+        position: relative;
+        top: 75px;
+        opacity: 35%;
+    }
+    
+    .dir {
+        width: 65%;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .b {
+        font-size: 65px;
+        color: #273248;
+    }
+    
+    .c {
+        font-size: 60px;
+        color: #273248;
+    }
+
+    /* one */
+
+.one {
+    background-color: #273248;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.o {
+    width: 40%;
+    float: right;
+    margin: 0px;
+}
+
+.oo {
+    width: 50%;
+    float: left;
+    margin: 20px;
+}
+
+/* two */
+
+.two {
+    background-color: #FFEBD2;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.t {
+    width: 40%;
+    float: left;
+    margin: 0px;
+}
+
+.tt {
+    width: 50%;
+    float: right;
+    margin: 20px;
+}
+
+/* thr */
+
+.thr {
+    background-color: #FC7643;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.r {
+    width: 40%;
+    float: right;
+    margin: 50px 20px 50px 0px;
+}
+
+.rr {
+    width: 50%;
+    float: left;
+    margin: 50px 0px 20px 20px;
+}
+
+.up {
+    color: #273248;
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+.down {
+    color: #273248;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+}
+
+@media screen and (min-width:500px) and (max-width:700px) {
+   
+    header {
+        background-image: url(img/header.png);
+        background-size: contain;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-color: #FEF1D9; 
+    }
+
+    span {
+        margin-top: 15px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FEF1D9;
+        font-size: 15px;
+        margin: 22px;
+    }
+    
+    .logo {
+        width: 28%;
+        margin-top: 10px;
+    }
+
+    .who {
+        background-color: #FEF1D9;
+        text-align: center;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    
+    .a {
+        background-image: url(img/who.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height: 90px;
+        position: relative;
+        top: 50px;
+        opacity: 35%;
+    }
+    
+    .dir {
+        width: 70%;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .b {
+        font-size: 48px;
+        color: #273248;
+    }
+    
+    .c {
+        font-size: 45px;
+        color: #273248;
+    }
+
+    /* one */
+
+.one {
+    background-color: #273248;
+    overflow: hidden;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+    padding: 25px;
+}
+
+.o {
+    width: 40%;
+    float: right;
+    margin: 0px;
+}
+
+.oo {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+
+/* two */
+
+.two {
+    background-color: #FFEBD2;
+    overflow: hidden;
+    padding: 25px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.t {
+    width: 40%;
+    float: left;
+    margin: 0px;
+}
+
+.tt {
+    width: 50%;
+    float: right;
+    margin: 0px;
+}
+
+/* thr */
+
+.thr {
+    background-color: #FC7643;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.r {
+    width: 40%;
+    float: right;
+    margin: 0px;
+}
+
+.rr {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+
+.up {
+    color: #273248;
+    padding-top: 40px;
+    font-size: 22px;
+}
+
+.down {
+    color: #273248;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+}
+
+@media screen and (min-width:350px) and (max-width:500px) {
+   
+    header {
+        background-image: url(img/header.png);
+        background-size: contain;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-color: #FEF1D9; 
+    }
+
+    span {
+        margin-top: 5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FEF1D9;
+        font-size: 10px;
+        margin: 16px;
+    }
+    
+    .logo {
+        width: 28%;
+        margin-top: 5px;
+    }
+
+    .who {
+        background-color: #FEF1D9;
+        text-align: center;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    
+    .a {
+        background-image: url(img/who.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height: 60px;
+        position: relative;
+        top: 30px;
+        opacity: 35%;
+    }
+    
+    .dir {
+        width: 65%;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .b {
+        font-size: 32px;
+        color: #273248;
+    }
+    
+    .c {
+        font-size: 30px;
+        color: #273248;
+    }
+
+    /* one */
+
+.one {
+    background-color: #273248;
+    overflow: hidden;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+    padding: 13px;
+}
+
+.o {
+    width: 40%;
+    float: right;
+    margin: 0px;
+}
+
+.oo {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+
+/* two */
+
+.two {
+    background-color: #FFEBD2;
+    overflow: hidden;
+    padding: 13px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.t {
+    width: 40%;
+    float: left;
+    margin: 0px;
+}
+
+.tt {
+    width: 50%;
+    float: right;
+    margin: 0px;
+}
+
+/* thr */
+
+.thr {
+    background-color: #FC7643;
+    overflow: hidden;
+    padding: 13px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1.5), 0 20px 40px 0 rgba(0, 0, 0, 1.5);
+}
+
+.r {
+    width: 40%;
+    float: right;
+    margin: 0px;
+}
+
+.rr {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+
+.up {
+    color: #273248;
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.down {
+    color: #273248;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+}
